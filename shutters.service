@@ -1,0 +1,15 @@
+
+[Unit]
+Description=Pi Somfy Shutter Service
+After=network-online.target
+
+[Service]
+User=pi
+ExecStart=sudo /usr/bin/python3 /home/pi/Pi-Somfy/operateShutters.py -c /home/pi/Pi-Somfy/operateShutters.conf -a -e -m
+Environment=PYTHONUNBUFFERED=1
+Restart=on-failure
+Type=exec
+
+
+[Install]
+WantedBy=multi-user.target
