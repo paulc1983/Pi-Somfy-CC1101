@@ -1,0 +1,43 @@
+# Project-specific files
+cache/
+downloaded/
+type_stubs/
+*.log
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtualenv
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+env/
+build/
+dist/
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# IntelliJ
+.idea/
+
+.devcontainer
+.vs
